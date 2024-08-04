@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/CSS/Style.css">
+    <link rel="JavaScript" href="/J.S/script.js">
+    <script src="https://kit.fontawesome.com/8decdc4f00.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>N</span>ISHANT</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="headertext">
+                <p>Web Developer</p>
+                <h1>Hi,I'm <span>Nishant </span> <br> Singh from Delhi</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <!---------about----------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/IMG/ing2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>I am Nishant Singh from Satna and currently in Gurgaon pursuing my B.C.A from World College Of Technology And Management .
+                  I am a Frontend Developer and
+                        currently working on my backend skills.
+                    </p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> Designing Web Interfaces</li>
+                            <li><span>Front-end</span><br> Website Development</li>
+                            <li><span>Back-end</span><br>Website Development</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>E-Commerce Website</span><br> Frontend of E-Commerce Website Using React</li>
+                            <li><span>Pizza Hut</span><br>Design for Pizza-hut Website Landing Page Using Figma</li>
+                            <li><span>Various Landing Pages</span><br>Landing Pages </li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 -2024</span><br> B.C.A at World College of Technology and Management
+                            </li>
+                            <li><span>2021</span><br> Higher Secondary Education at Government Senior Secondary School, Kadipur, Gurgaon </li>
+                            <li><span>2019</span><br>Secondary Education at Lady Florence Convent School, Gurgaon</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------services----------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia illum ut adipisci hic earum
+                        eaque.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque maxime repellendus qui non
+                        tempore magnam nostrum totam eligendi esse excepturi.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam odit, dolore incidunt dolorem
+                        ad assumenda soluta laborum impedit voluptate voluptates?</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle"> My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="/IMG/E-coomerce.jpg" alt="">
+                    <div class="layer">
+                        <h3>E-Commerce website</h3>
+                        <p>Its a website where people can find clothes for Mens, womans and kids.</p>
+                        <a href=""><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+
+                
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="nike.png" alt="">
+                    <div class="layer">
+                        <h3>Nike Shoes Landing page</h3>
+                        <p>Its a clone of a nike shoes Landing page and i have used various animations using Gsap
+                            library of a JavaScript and make it look like really fun.</p>
+                        <a href=""><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="https://github.com/Nishant-277?tab=repositories" class="btn">See more</a>
+        </div>
+    </div>
+    <!-----------contact------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>nishantsingh2772003@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 7532047595</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/nishantsingh_.07"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/nishant-singh-44a56a262"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Nishant-277?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                        <!-- </div>
+                    <a href="Nishant frontend.png" download class="btn btn2">Download CV</a>
+                </div> -->
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="Email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright <span>&#169;</span> Nishant . Made with <i class="fa-solid fa-heart"></i> by Nishant
+                        Gupta</p>
+                </div>
+            </div>
+
+
+            <script>
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+
+                function opentab(tabname) {
+                    for (tablink of tablinks) {
+                        tablink.classList.remove("active-link");
+                    }
+                    for (tabcontent of tabcontents) {
+                        tabcontent.classList.remove("active-tab");
+                    }
+                    event.currentTarget.classList.add("active-link");
+                    document.getElementById(tabname).classList.add("active-tab")
+                }
+            </script>
+
+</body>
+
+</html>
